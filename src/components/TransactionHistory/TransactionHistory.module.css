@@ -1,0 +1,31 @@
+.transaction-history {
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3);
+}
+
+.table-header {
+  background-color: #06c4fdd0;
+  border: 5px solid red;
+}
+
+.transaction-history .rows:nth-child(even) {
+  background: #d0e4f5;
+  border: 5px solid red;
+}
+
+thead {
+  border: none;
+  color: aliceblue;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  color: gray;
+  padding: 10px;
+  text-align: center;
+}
